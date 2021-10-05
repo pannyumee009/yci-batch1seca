@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    background-color: white;
+    box-shadow: -30px 30px 20px silver ,
+                30px 30px 20px silver;
+    margin: auto;
+    width: 900px;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+body{
+    background-color: #eee;
+    margin: 0;
+}
+
+h2,p,h1{
+    text-align: center;
+}
+
+img{
+    text-align: center;
+    width: 900px;
+    height: 430px;
+}
+
+.contact{
+    padding-top: 20px;
+}
+
+.work{
+   background-color: rgba(0, 0, 0, 0.7); 
+   color: white;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.decoration{
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-color: white;
+    padding: 0px 10px;
+    border-width: 1px;
+}
